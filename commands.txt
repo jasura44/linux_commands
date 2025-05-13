@@ -1,0 +1,167 @@
+<------------------------------------------------------------------------------------------------------------------------>
+
+Useful commands for Linux administration
+
+# Prints info about OS and system hardware
+uname
+
+# Prints working directory
+pwd
+
+# Lists folders, subfolders and files
+ls
+
+# Displays file contents
+cat <filename>
+
+# Pipes or filters contents further
+cat <filename> | grep fatal
+
+# Pipes or filters contents further and saves to another files
+cat <filename> | grep fatal > fatal_contents.txt
+
+# The rm command deletes files from a directory. You must have the write permission for the folder or use sudo
+rm [options] file1 file2
+
+# Run rmdir to delete empty directories in your Linux system
+rmdir [options] directory_name
+
+# Use the cp command to copy files from your current directory to another folder
+cp file1 file2 [target_path]
+
+# The main usage of the mv command is to move a file or folder to another location
+mv file_or_directory [target_directory]
+
+# Run the touch command to create a new empty file in a specific directory
+touch [options] [path_and_file_name]
+
+# The file command checks a file type, such as TXT, PDF, or other.
+file [file_name]
+
+# The tar command bundles multiple files or directories into an archive without compression
+tar [options] tar_file_name file1 file2
+
+# nano, vi, and jed commands let you edit files. They have the same syntax, except at the beginning, where you specify the name of the tool:
+nano/vi/jed file_name
+
+# Use the sed command to search and replace patterns in files quickly. The basic syntax looks like this:
+sed [options] 'subcommand/new_pattern/target_pattern' input_file
+
+# Use the head command to print the first few entries of a file. The basic syntax is as follows
+head [options] file_name
+
+# The tail command is the opposite of head, allowing you to print the last few lines from files or another utility’s output
+tail [options] file_name
+
+# Use the sort command to rearrange a file’s content in a specific order. Its syntax looks as follows:
+sort [options] [file_name]
+
+# The diff command compares two files and prints their differences. Here’s the syntax:
+diff file_name1 file_name2
+
+# The locate command searches for a file and prints its location path. Here’s the syntax:
+locate [options] [keyword]
+
+# The find command searches for a file within a specific directory. Here’s the syntax:
+find [path] [options] expression
+
+# superuser do or sudo enables non-root users who are part of the sudo group to execute administrative commands.
+sudo [options] your_command
+
+# The su command lets you switch to another user in the Terminal session. The syntax looks as follows
+su [options] [username]
+
+# Chmod lets you change the permissions of files or directories. The basic syntax looks as follows
+chmod [options] [permission] [file_or_directory]
+
+# The chown command lets you change the ownership of files, directories, or symbolic links.
+chown [options] newowner:newgroup file1 file2
+
+# Use the useradd command to create a new account in your Linux system. The syntax is as follows:
+useradd [options] new_username
+
+# The df command checks your Linux system’s disk usage, displaying the used space in percentage and kilobyte (KB).
+df [options] [file system]
+
+# To check the size of a directory and its content, use the du command. Here’s the syntax
+du [directory]
+
+# The top command displays all running processes in your system and their hardware consumption.
+top [options]
+
+# Like top, the htop command lets you display and manage processes in your Linux server.
+htop [options]
+
+# The ps command summarizes the status of all running processes in your Linux system at a specific time.
+ps [options]
+
+# The unix name or uname command displays detailed information about your Linux machine, including hardware, name, and operating system kernel
+uname [options]
+
+# Use the hostname command to check your VPS hostname and other related information.
+hostname [options]
+
+# The time command measures the execution time of commands or scripts to gain insights into your system performance.
+time command_or_script
+
+# The systemctl command is used to manage services in your Linux system.
+systemctl subcommand [service_name][options]
+
+# The watch command lets you continuously run a utility at a specific interval to monitor changes in the output.
+watch [options] command_name
+
+# Jobs are tasks or commands that are running in your current shell.
+jobs [options] [Job_ID]
+
+# Use the kill command to terminate a process using its ID.
+kill [signal_option] Process_ID
+
+# To obtain process ID
+ps ux
+
+# The shutdown command lets you turn off or restart your Linux system at a specific time.
+shutdown [option] [time] [message]
+
+# The wget command lets you download files from the internet via HTTP, HTTPS, or FTP protocols.
+wget [options] [URL]
+
+# Use the cURL command to transfer data from or to a server by specifying its URL.
+curl [options] URL
+
+# The scp command lets you securely copy files and directories between systems over a network.
+scp [option] [source username@IP]:/[directory and file name] [destination username@IP]:/[destination directory]
+
+# The rsync command syncs files or folders between two destinations to ensure they have the same content.
+rsync [options] source destination
+
+# The ip utility lets you list and manage your system’s network parameters, similar to the ifconfig command in older Linux distros.
+ip [options] object command
+
+# The netstat command displays information about your system’s network configuration.
+netstat [options]
+
+# The traceroute command tracks a packet’s path when traveling between hosts, providing information like the transfer time and involved routers.
+traceroute [options] destination
+
+# The nslookup command requests a domain name system (DNS) server to check a domain linked to an IP address or vice versa.
+nslookup [options] domain-or-ip [dns-server]
+
+# The domain information groper or dig command displays information about a domain. It is similar to nslookup but more comprehensive.
+dig [options] [server] [type] name-or-ip
+
+# Run the history command to check previously run utilities.
+history [options]
+
+# The ln command links files or directories with a shortcut.
+ln [options] source target
+
+# The alias command lets you set another name for a string that belongs to a file, text, program, or command name.
+alias name='string'
+
+# The cal command displays a calendar in your Linux command-line interface.
+cal [options] [month] [year]
+
+# 
+
+
+<------------------------------------------------------------------------------------------------------------------------>

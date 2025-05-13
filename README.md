@@ -1,2 +1,2 @@
 # linux_commands
-Common linux commands for use
+Useful commands for Linux administration
