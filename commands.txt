@@ -161,7 +161,4 @@ alias name='string'
 # The cal command displays a calendar in your Linux command-line interface.
 cal [options] [month] [year]
 
-# 
-
-
 <------------------------------------------------------------------------------------------------------------------------>
